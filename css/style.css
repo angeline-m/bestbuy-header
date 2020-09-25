@@ -1,0 +1,46 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0046be;
+    
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header > ul {
+    justify-content: flex-end;
+    height: 48px;
+    align-items: center;
+}
+
+header > ul li {
+    margin-left: 16px;
+}
+
+header > div:not(.dk-blue) {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div:not(.dk-blue) ul:last-child {
+    width: 250px;
+    justify-content: space-between;
+}
+
